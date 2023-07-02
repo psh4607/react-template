@@ -5,4 +5,3 @@
  * Proprietary and confidential.
  * Written by {TODO} Team, 2023.
  ******************************************************************************/
-export {};

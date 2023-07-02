@@ -7,7 +7,7 @@
     ],
     "paths": {
       "*": ["node_modules/*"],
-      "@assets/*": ["./assets/*"],
+      "@public/*": ["./public/*"],
       "@src/*": ["./src/*"]
     },
     "allowSyntheticDefaultImports": true,
@@ -29,6 +29,6 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
   },
-  "include": ["src/**/*", "tools/**/*"]
-
+  "include": ["src/**/*", "tools/**/*"],
+ "exclude": ["node_modules", "dist", "resources"]
 }
