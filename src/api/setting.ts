@@ -6,15 +6,10 @@
  * Written by {TODO} Team, 2023.
  ******************************************************************************/
 
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import axios from 'axios';
+import { apiAddr, env } from '../config';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement,
-);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-);
+export const instance = axios.create({
+  baseURL: apiAddr[env],
+  withCredentials: true,
+});
