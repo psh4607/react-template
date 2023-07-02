@@ -11,7 +11,7 @@ import ReactDOM from 'react-dom/client';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { RecoilRoot } from 'recoil';
 import { RouterProvider } from 'react-router';
-import { router } from '@src/routes/route';
+import { router } from '@src/routes/router';
 
 import GlobalStyle from '@src/style/GlobalStyle';
 
