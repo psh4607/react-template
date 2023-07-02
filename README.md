@@ -4,56 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 주로 사용하는 webpack, babel, eslint, prettier 등이 적용되었습니다.
 
-## 📌 Convension 
-
-### Naming Convention
-- `Folder`
-  - kebab-case
-- `Files`
-  - PascalCase
-    - tsx 컴포넌트 파일
-    - 타입 파일
-    - class 파일들… (객체베이스)
-  - camelCase
-    - 상수파일
-    - 함수 및 HOC
-  - snake_case
-    - 이미지
-    - 폰트 등의 정적 파일들
-- `Constants`
-  - SCREAM_SNAKE_CASE
-- `Variables`
-  - camelCase
-
-### Commit Message Convention
-```json 
-[
-   {
-      "emoji": "✨ message ",
-      "description": "새 기능 구현"
-    },
-    {
-      "emoji": "🔧 message ",
-      "description": "버그 수정"
-    },
-    {
-      "emoji": "💄 message ",
-      "description": "UI 및 스타일 변경"
-    },
-    {
-      "emoji": "♻️ message ",
-      "description": "리팩토링 / 코드 형식 및 구조 개선 / 변수명 변경, 콘솔로그 제거, 주석 변경 등 기능 차이 없는 코드 수정""
-    },
-    {
-      "emoji": "📦 message ",
-      "description": "이미지, 폰트, 에셋, 더미데이터 추가 / 패키지 설치"
-    },
-    {
-      "emoji": "🎉 init : Initial commit "
-      "description": "프로젝트 시작"
-    }
-]
-```
 ## 📚 Stack
 
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white"/> <img src="https://img.shields.io/badge/styled components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
@@ -124,6 +74,58 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - 전역 컴포넌트에서 사용되는 스타일드 컴포넌트들 + GlobalStyle.ts
 
 </details>
+
+## 📌 Convention 
+
+### Naming Convention
+- `Folder`
+  - kebab-case
+- `Files`
+  - PascalCase
+    - tsx 컴포넌트 파일
+    - 타입 파일
+    - class 파일들… (객체베이스)
+  - camelCase
+    - 상수파일
+    - 함수 및 HOC
+  - snake_case
+    - 이미지
+    - 폰트 등의 정적 파일들
+- `Constants`
+  - SCREAM_SNAKE_CASE
+- `Variables`
+  - camelCase
+
+### Commit Message Convention
+```json 
+[
+   {
+      "emoji": "✨ message ",
+      "description": "새 기능 구현"
+    },
+    {
+      "emoji": "🔧 message ",
+      "description": "버그 수정"
+    },
+    {
+      "emoji": "💄 message ",
+      "description": "UI 및 스타일 변경"
+    },
+    {
+      "emoji": "♻️ message ",
+      "description": "리팩토링 / 코드 형식 및 구조 개선 / 변수명 변경, 콘솔로그 제거, 주석 변경 등 기능 차이 없는 코드 수정""
+    },
+    {
+      "emoji": "📦 message ",
+      "description": "이미지, 폰트, 에셋, 더미데이터 추가 / 패키지 설치"
+    },
+    {
+      "emoji": "🎉 init : Initial commit "
+      "description": "프로젝트 시작"
+    }
+]
+```
+
 
 ## Available Scripts
 
